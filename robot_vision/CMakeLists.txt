@@ -6,6 +6,8 @@ set(LIB_NAME ${PROJECT}_${COMPONENT})
 project( ${LIB_NAME} 
 )
 
+# TODO: Add the robot_common library
+
 set(PUBLIC_HEADER src/${PROJECT}_${COMPONENT}.hpp)
 file(GLOB_RECURSE HEADERS "src/*.hpp" "src/*.h")
 file(GLOB_RECURSE SOURCES "src/*.cpp")
