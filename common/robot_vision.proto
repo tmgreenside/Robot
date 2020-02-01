@@ -3,9 +3,9 @@ syntax = "proto3";
 package Robot;
 
 message Vision_item {
-    required string object_type = 1;
-    required uint32 top = 2;
-    required uint32 left = 3;
-    required uint32 height = 4;
-    required uint32 width = 5;
+  required string object_type = 1;
+  required uint32 top = 2;
+  required uint32 left = 3;
+  required uint32 height = 4;
+  required uint32 width = 5;
 }
